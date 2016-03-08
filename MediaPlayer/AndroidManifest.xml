@@ -43,7 +43,7 @@
         android:theme="@android:style/Theme.Holo.Light"
         android:uiOptions="splitActionBarWhenNarrow" >
         <activity
-            android:name=".FileExplorerTabActivity"
+            android:name="com.buptnu.mediaplayer.FileExplorerTabActivity"
             android:configChanges="screenSize|keyboardHidden"
             android:screenOrientation="sensor"
             android:uiOptions="splitActionBarWhenNarrow" >
@@ -90,7 +90,7 @@
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
-            android:name=".VideoViewDemo"
+            android:name="com.buptnu.mediaplayer.VideoViewDemo"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
@@ -99,7 +99,7 @@
             android:name="android.app.default_searchable"
             android:value=".SearchActivity" />
 
-        <service android:name=".FTPServerService" />
+        <service android:name="com.buptnu.mediaplayer.FTPServerService" />
     </application>
 
 </manifest>

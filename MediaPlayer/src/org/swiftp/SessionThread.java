@@ -19,8 +19,6 @@ along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
 
 package org.swiftp;
 
-import net.micode.fileexplorer.FTPServerService;
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.File;
@@ -32,6 +30,8 @@ import java.io.UnsupportedEncodingException;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.nio.ByteBuffer;
+
+import com.buptnu.mediaplayer.FTPServerService;
 
 import android.util.Log;
 
